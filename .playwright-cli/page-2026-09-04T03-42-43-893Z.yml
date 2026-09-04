@@ -1,0 +1,251 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - link "PlayNest Play. Learn. Grow." [ref=e4] [cursor=pointer]:
+        - /url: "#top"
+        - generic [ref=e5]:
+          - generic [ref=e6]: PlayNest
+          - generic [ref=e7]: Play. Learn. Grow.
+      - navigation [ref=e8]:
+        - link "Programs" [ref=e9] [cursor=pointer]:
+          - /url: "#programs"
+        - link "Schedule" [ref=e10] [cursor=pointer]:
+          - /url: "#schedule"
+        - link "Benefits" [ref=e11] [cursor=pointer]:
+          - /url: "#benefits"
+        - link "Pricing" [ref=e12] [cursor=pointer]:
+          - /url: "#pricing"
+        - link "FAQ" [ref=e13] [cursor=pointer]:
+          - /url: "#faq"
+      - link "Explore Programs" [ref=e14] [cursor=pointer]:
+        - /url: "#programs"
+    - generic [ref=e17]:
+      - generic [ref=e18]:
+        - paragraph [ref=e19]: Carefully curated play & learning
+        - heading [level=1] [ref=e20]:
+          - text: Where Kids Play,
+          - emphasis [ref=e21]: Learn
+          - text: "&"
+          - strong [ref=e22]: Grow
+        - paragraph [ref=e23]: Fun, active, and engaging experiences designed for growing kids. Thoughtfully structured play sessions that nurture confidence, coordination, and creative exploration.
+        - generic [ref=e24]:
+          - link "Explore Programs" [ref=e25] [cursor=pointer]:
+            - /url: "#programs"
+          - button "View Sample Timetable" [ref=e28] [cursor=pointer]
+        - paragraph [ref=e29]: Mobile PlayNest demo booking is coming soon. This page shows a sample program and schedule, not live availability.
+      - generic [ref=e33]:
+        - img "Children playing in a warm activity space" [ref=e34]
+        - generic [ref=e35]: Safe Today. Fun Forever.
+        - generic [ref=e36]:
+          - generic [ref=e37]: Play made
+          - generic [ref=e38]: 1:1 Facilitator ratio
+          - generic [ref=e39]: Inclusive, active, and joy-led
+        - generic [ref=e40]: Ages 1 to 10 years
+    - generic [ref=e42]:
+      - heading "Early Learning & Play Programs" [level=2] [ref=e43]
+      - paragraph [ref=e44]: Each program is thoughtfully planned to support growing kids' physical expression, social confidence, curiosity, and learning in small-group experiences.
+      - generic [ref=e45]:
+        - article [ref=e46]:
+          - generic [ref=e47]:
+            - generic [ref=e48]: Ages 1–3
+            - generic [ref=e49]: 45 mins
+          - heading "Toddler Time" [level=3] [ref=e50]
+          - paragraph [ref=e51]: Gentle movement and guided play for little explorers.
+          - generic [ref=e52]:
+            - generic [ref=e53]: ₱350
+            - button "Details & Schedule" [ref=e54] [cursor=pointer]
+        - article [ref=e55]:
+          - generic [ref=e56]:
+            - generic [ref=e57]: Ages 3–5
+            - generic [ref=e58]: 45 mins
+          - heading "Little Explorers" [level=3] [ref=e59]
+          - paragraph [ref=e60]: Movement, balance, coordination, and playful challenges.
+          - generic [ref=e61]:
+            - generic [ref=e62]: ₱400
+            - button "Details & Schedule" [ref=e63] [cursor=pointer]
+        - article [ref=e64]:
+          - generic [ref=e65]:
+            - generic [ref=e66]: Ages 5–8
+            - generic [ref=e67]: 45 mins
+          - heading "Junior Gymnastics" [level=3] [ref=e68]
+          - paragraph [ref=e69]: A fun introduction to gymnastics fundamentals.
+          - generic [ref=e70]:
+            - generic [ref=e71]: ₱450
+            - button "Details & Schedule" [ref=e72] [cursor=pointer]
+        - article [ref=e73]:
+          - generic [ref=e74]:
+            - generic [ref=e75]: Ages 2–10
+            - generic [ref=e76]: 90 mins
+          - heading "Open Play" [level=3] [ref=e77]
+          - paragraph [ref=e78]: Flexible supervised play in the PlayNest activity space.
+          - generic [ref=e79]:
+            - generic [ref=e80]: ₱300
+            - button "Details & Schedule" [ref=e81] [cursor=pointer]
+      - paragraph [ref=e82]: "Booking Note: session enrollments and child profiles are reserved inside the PlayNest demo experience."
+    - generic [ref=e84]:
+      - heading "Playful Restraint, Maximum Care" [level=2] [ref=e85]
+      - paragraph [ref=e86]: The children bring the energy; our programs provide the gentle care, calm safety, and predictable comfort.
+      - generic [ref=e87]:
+        - article [ref=e88]:
+          - heading "Safe Environment" [level=3] [ref=e93]
+          - paragraph [ref=e94]: Nurturing spaces designed for focused play, calm transitions, and age-appropriate discovery.
+        - article [ref=e95]:
+          - heading "Active Learning" [level=3] [ref=e100]
+          - paragraph [ref=e101]: Play-based experiences keep curiosity moving through joyful movement, balance, and collaboration.
+        - article [ref=e102]:
+          - heading "Small Groups" [level=3] [ref=e108]
+          - paragraph [ref=e109]: Intentional facilitation helps every child feel seen, supported, and confident.
+        - article [ref=e110]:
+          - heading "Easy Booking" [level=3] [ref=e114]
+          - paragraph [ref=e115]: Browse programs, check the schedule, and manage a demo visit in one parent-focused flow.
+    - generic [ref=e117]:
+      - heading "How PlayNest Works" [level=2] [ref=e118]
+      - paragraph [ref=e119]: From browsing ideas to playful time together, the path stays clear and simple.
+      - generic [ref=e120]:
+        - article [ref=e121]:
+          - generic [ref=e122]: "1"
+          - heading "Find an Activity" [level=3] [ref=e123]
+          - paragraph [ref=e124]: Browse age-appropriate development sessions suited to your child's current stage, comfort, goals, and energy level.
+          - generic [ref=e125]: ⌁ Find your best fit
+        - article [ref=e126]:
+          - generic [ref=e127]: "2"
+          - heading "Choose a Schedule" [level=3] [ref=e128]
+          - paragraph [ref=e129]: Pick your preferred studio session from the sample day. Select the child's attending age range with confidence.
+          - generic [ref=e130]: ⌁ Find your best fit
+        - article [ref=e131]:
+          - generic [ref=e132]: "3"
+          - heading "Come & Play" [level=3] [ref=e133]
+          - paragraph [ref=e134]: Arrive relaxed. PlayNest is built for a simple, considerate flow from planning to studio time.
+          - generic [ref=e135]: ⌁ Find your best fit
+      - generic [ref=e136]:
+        - generic [ref=e137]: ▣
+        - generic [ref=e138]:
+          - text: Mobile-First Attendance
+          - paragraph [ref=e139]: All session reservations and digital check-in passes are handled inside the PlayNest app.
+        - button "Mobile PlayNest" [ref=e140] [cursor=pointer]
+    - generic [ref=e142]:
+      - heading "Weekly Studio Schedule" [level=2] [ref=e143]
+      - paragraph [ref=e144]: Explore a sample weekly schedule for planning and preview purposes. No session is live or reservable here.
+      - generic [ref=e145]:
+        - button "Tue" [ref=e146] [cursor=pointer]
+        - button "Wed" [ref=e147] [cursor=pointer]
+        - button "Thu" [ref=e148] [cursor=pointer]
+        - button "Fri" [ref=e149] [cursor=pointer]
+        - button "Sat" [ref=e150] [cursor=pointer]
+        - button "Sun" [ref=e151] [cursor=pointer]
+      - generic [ref=e152]:
+        - generic [ref=e153]: ▣ PlayNest Activity Center · Tue's Slots
+        - generic [ref=e154]: "Mondays: Closed for sanitization"
+      - generic [ref=e155]:
+        - article [ref=e156]:
+          - generic [ref=e157]: 09:00 AM
+          - generic [ref=e158]:
+            - heading "Toddler Time Ages 1–3" [level=3] [ref=e159]
+            - paragraph [ref=e160]: Studio A · 45 mins · Gentle Movement & Sensory
+          - generic [ref=e161]: "Sample: 4 spots open"
+          - strong [ref=e162]: ₱350
+        - article [ref=e163]:
+          - generic [ref=e164]: 10:10 AM
+          - generic [ref=e165]:
+            - heading "Little Explorers Ages 3–5" [level=3] [ref=e166]
+            - paragraph [ref=e167]: Studio B · 45 mins · Movement & Balance Obstacles
+          - generic [ref=e168]: "Sample: 2 spots open"
+          - strong [ref=e169]: ₱400
+        - article [ref=e170]:
+          - generic [ref=e171]: 02:00 PM
+          - generic [ref=e172]:
+            - heading "Open Play Ages 2–10" [level=3] [ref=e173]
+            - paragraph [ref=e174]: Central Play Loft · 90 mins · Supervised Free Exploration
+          - generic [ref=e175]: "Sample: Filling fast"
+          - strong [ref=e176]: ₱300
+        - article [ref=e177]:
+          - generic [ref=e178]: 04:00 PM
+          - generic [ref=e179]:
+            - heading "Junior Gymnastics Ages 5–8" [level=3] [ref=e180]
+            - paragraph [ref=e181]: Studio A · 45 mins · Agility, Floor Mat Basics
+          - generic [ref=e182]: "Sample: 3 spots open"
+          - strong [ref=e183]: ₱450
+      - paragraph [ref=e184]: "* Times, instructors, and capacities are illustrative sample data. Reserve in the app for live studio schedule."
+    - generic [ref=e186]:
+      - heading "Demonstration Passes & Offers" [level=2] [ref=e187]
+      - paragraph [ref=e188]: Sample offers are shown for evaluation only. Program prices vary; purchases and memberships are not available in this demo.
+      - generic [ref=e189]:
+        - article [ref=e190]:
+          - text: Drop-in
+          - heading "Single Session" [level=3] [ref=e191]
+          - paragraph [ref=e192]: Drop-in exploration for spontaneous days of active sensory discovery.
+          - strong [ref=e193]: ₱450
+          - emphasis [ref=e194]: / single session
+          - list [ref=e195]:
+            - listitem [ref=e196]: Sample offer only
+            - listitem [ref=e199]: No payment is collected
+            - listitem [ref=e202]: Demo access is included
+          - button "Evaluate Single Session" [ref=e205] [cursor=pointer]
+        - article [ref=e206]:
+          - generic [ref=e207]: Most popular
+          - text: Flexible value
+          - heading "5-Visit Pass" [level=3] [ref=e208]
+          - paragraph [ref=e209]: Save 20% on multi-session visits with flexible family scheduling.
+          - strong [ref=e210]: ₱1,800
+          - emphasis [ref=e211]: / 5 credits (₱360/ea)
+          - list [ref=e212]:
+            - listitem [ref=e213]: Sample offer only
+            - listitem [ref=e216]: No payment is collected
+            - listitem [ref=e219]: Demo access is included
+          - button "Evaluate 5-Visit Pass" [ref=e222] [cursor=pointer]
+        - article [ref=e223]:
+          - text: Drop-in
+          - heading "Monthly Membership" [level=3] [ref=e224]
+          - paragraph [ref=e225]: Unlimited weekday open play & milestone developmental tracking.
+          - strong [ref=e226]: ₱1,499
+          - emphasis [ref=e227]: / month
+          - list [ref=e228]:
+            - listitem [ref=e229]: Sample offer only
+            - listitem [ref=e232]: No payment is collected
+            - listitem [ref=e235]: Demo access is included
+          - button "Evaluate Monthly Membership" [ref=e238] [cursor=pointer]
+    - generic [ref=e240]:
+      - heading "Frequently Asked Questions" [level=2] [ref=e241]
+      - paragraph [ref=e242]: Everything families need to know about preparing for their studio visit.
+      - button "What ages does PlayNest cater to?" [ref=e244] [cursor=pointer]
+      - button "How do I book a session?" [ref=e249] [cursor=pointer]
+      - button "Do parents need to attend?" [ref=e254] [cursor=pointer]
+      - button "Can I reschedule or cancel?" [ref=e259] [cursor=pointer]
+    - generic [ref=e264]:
+      - generic [ref=e265]: ✦
+      - heading "Ready for your next adventure?" [level=2] [ref=e266]
+      - paragraph [ref=e267]: Explore our programs and imagine a calm, joyful space where your child's natural curiosity leads the way.
+      - link "Explore Programs" [ref=e268] [cursor=pointer]:
+        - /url: "#programs"
+      - generic [ref=e271]: PlayNest Early Development Center · Sample Movement & Play
+    - generic [ref=e272]:
+      - generic [ref=e273]:
+        - generic [ref=e274]:
+          - link "PlayNest Play. Learn. Grow." [ref=e275] [cursor=pointer]:
+            - /url: "#top"
+            - generic [ref=e276]:
+              - generic [ref=e277]: PlayNest
+              - generic [ref=e278]: Play. Learn. Grow.
+          - paragraph [ref=e279]: Thoughtfully curated early-learning and creative play sessions designed for mindful parenting, collaborative social growth, and gentle development.
+          - generic [ref=e280]: PlayNest Activity Center (Demo Environment)
+        - generic [ref=e281]:
+          - heading "Quick Links" [level=3] [ref=e282]
+          - link "Programs" [ref=e283] [cursor=pointer]:
+            - /url: "#programs"
+          - link "Schedule" [ref=e284] [cursor=pointer]:
+            - /url: "#schedule"
+          - link "Benefits" [ref=e285] [cursor=pointer]:
+            - /url: "#benefits"
+          - link "Pricing" [ref=e286] [cursor=pointer]:
+            - /url: "#pricing"
+          - link "FAQ" [ref=e287] [cursor=pointer]:
+            - /url: "#faq"
+        - generic [ref=e288]:
+          - heading "Visit & Care" [level=3] [ref=e289]
+          - paragraph [ref=e290]: PlayNest Activity CenterDemo location — details pending
+          - paragraph [ref=e291]: "Tuesday – Sunday: 8:30 AM – 6:00 PMMondays: Closed for Studio Care"
+      - generic [ref=e292]:
+        - generic [ref=e293]: © 2026 PlayNest. Demo showcase for a parent-first booking interface.
+        - generic [ref=e294]: Privacy Philosophy · Safety Guidelines · Terms of Service
+  - button "Open Next.js Dev Tools" [ref=e300] [cursor=pointer]
+  - alert [ref=e304]
