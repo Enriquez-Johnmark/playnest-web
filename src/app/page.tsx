@@ -181,12 +181,6 @@ export default function Home() {
               Download Android demo <Download size={16} />
             </a>
           </div>
-          <p className="demo-note">
-            <CircleHelp size={15} />
-            Mobile PlayNest demo booking is coming soon. This page shows a
-            sample program and schedule, not live availability. Recruiters can
-            download the Android demo above.
-          </p>
         </div>
         <div className="hero-photo">
           <img
