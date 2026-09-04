@@ -5,6 +5,7 @@ import {
   Check,
   ChevronDown,
   CircleHelp,
+  Download,
   HeartHandshake,
   Menu,
   ShieldCheck,
@@ -172,14 +173,19 @@ export default function Home() {
             <a className="primary-button" href="#programs">
               Explore Programs <ArrowRight size={16} />
             </a>
-            <button className="quiet-button" onClick={showNotice}>
-              View Sample Timetable
-            </button>
+            <a
+              className="quiet-button download-button"
+              href="/downloads/playnest-android-v1.0.0.apk"
+              download
+            >
+              Download Android demo <Download size={16} />
+            </a>
           </div>
           <p className="demo-note">
             <CircleHelp size={15} />
             Mobile PlayNest demo booking is coming soon. This page shows a
-            sample program and schedule, not live availability.
+            sample program and schedule, not live availability. Recruiters can
+            download the Android demo above.
           </p>
         </div>
         <div className="hero-photo">
@@ -430,6 +436,13 @@ export default function Home() {
           </p>
           <a className="primary-button" href="#programs">
             Explore Programs <ArrowRight size={16} />
+          </a>
+          <a
+            className="secondary-download"
+            href="/downloads/playnest-android-v1.0.0.apk"
+            download
+          >
+            <Download size={16} /> Download Android demo
           </a>
           <small>
             PlayNest Early Development Center · Sample Movement &amp; Play
