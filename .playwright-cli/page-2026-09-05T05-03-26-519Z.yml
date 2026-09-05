@@ -1,0 +1,46 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e55]
+  - navigation "Main navigation" [ref=e71]:
+    - link "● PlayNest" [ref=e72] [cursor=pointer]:
+      - /url: /app
+      - generic [ref=e73]: ●
+      - text: PlayNest
+    - generic [ref=e74]:
+      - link "Home" [ref=e75] [cursor=pointer]:
+        - /url: /app
+      - link "Activities" [ref=e79] [cursor=pointer]:
+        - /url: /app/activities
+      - link "My bookings" [ref=e83] [cursor=pointer]:
+        - /url: /app/bookings
+      - link "Profile" [ref=e86] [cursor=pointer]:
+        - /url: /app/profile
+  - main [ref=e90]:
+    - link "Change selection" [ref=e91] [cursor=pointer]:
+      - /url: /app/activities/junior-gymnastics/book
+    - generic [ref=e94]:
+      - generic [ref=e95]:
+        - generic [ref=e96]:
+          - heading "Review your booking" [level=1] [ref=e97]
+          - paragraph [ref=e98]: Confirm the details before saving your demo booking.
+        - generic [ref=e99]:
+          - generic [ref=e100]:
+            - term [ref=e101]: Activity
+            - definition [ref=e102]: Junior Gymnastics
+          - generic [ref=e103]:
+            - term [ref=e104]: When
+            - definition [ref=e105]: Mon, Sep 14, 4:00 PM
+          - generic [ref=e106]:
+            - term [ref=e107]: Attending
+            - definition [ref=e108]: Emma, age 5
+          - generic [ref=e109]:
+            - term [ref=e110]: Where
+            - definition [ref=e111]: Studio A · Noah Cruz
+          - generic [ref=e112]:
+            - term [ref=e113]: Price
+            - definition [ref=e114]:
+              - text: ₱450
+              - generic [ref=e115]: Informational only
+        - button "Confirm demo booking" [ref=e116] [cursor=pointer]
+      - complementary [ref=e120]:
+        - text: Demo booking
+        - paragraph [ref=e121]: No payment, email, or real reservation is created. It is stored only in this browser.

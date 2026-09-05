@@ -60,15 +60,16 @@ Expose asynchronous repository operations for initialisation, activity/session/c
 
 | Route | Purpose |
 | --- | --- |
-| `/` | Home: relevant discovery and upcoming booking context. |
-| `/activities` | Browse/search/filter activities. |
-| `/activities/[activityId]` | Activity details and booking entry. |
-| `/activities/[activityId]/book` | Sequential session and child selection. |
-| `/activities/[activityId]/review` | Read-only review before confirmation. |
-| `/bookings` | Upcoming and Past booking groups. |
-| `/bookings/[bookingId]` | Persisted booking detail. |
-| `/bookings/[bookingId]/pass` | Demo pass for eligible upcoming bookings. |
-| `/profile` | Fictional family context and confirmed demo reset. |
+| `/` | Public marketing entry that links to the demo app. |
+| `/app` | Booking-app home: relevant discovery and upcoming booking context. |
+| `/app/activities` | Browse/search/filter activities. |
+| `/app/activities/[activityId]` | Activity details and booking entry. |
+| `/app/activities/[activityId]/book` | Sequential session and child selection. |
+| `/app/activities/[activityId]/review` | Read-only review before confirmation. |
+| `/app/bookings` | Upcoming and Past booking groups. |
+| `/app/bookings/[bookingId]` | Persisted booking detail. |
+| `/app/bookings/[bookingId]/pass` | Visual demo pass code for eligible upcoming bookings; it is not scannable. |
+| `/app/profile` | Fictional family context and confirmed demo reset. |
 
 Preserve a valid draft when the user navigates back. Clear it after successful confirmation so browser Back cannot submit again. Missing IDs must render a recoverable not-found state.
 

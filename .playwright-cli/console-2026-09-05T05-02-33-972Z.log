@@ -1,0 +1,12 @@
+[    4547ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:3002/app?_rsc=1NR7bjn5mBHshGGs:0
+[    4547ms] [ERROR] Failed to fetch RSC payload for http://127.0.0.1:3002/app. Falling back to browser navigation. TypeError: Failed to fetch
+    at n (http://127.0.0.1:3002/_next/static/chunks/2-rtuqsgzmno4.js:2:34883)
+    at w (http://127.0.0.1:3002/_next/static/chunks/2-rtuqsgzmno4.js:1:22192)
+    at async S (http://127.0.0.1:3002/_next/static/chunks/2-rtuqsgzmno4.js:1:20151)
+    at async H (http://127.0.0.1:3002/_next/static/chunks/2-rtuqsgzmno4.js:1:31993) @ http://127.0.0.1:3002/_next/static/chunks/2-rtuqsgzmno4.js:0
+[    4550ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:3002/app?_rsc=A-T3OfhmpQqJFDfj:0
+[    4551ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:3002/app/activities?_rsc=A-T3OfhmpQqJFDfj:0
+[    4551ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:3002/app/bookings?_rsc=A-T3OfhmpQqJFDfj:0
+[    4551ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:3002/app/profile?_rsc=A-T3OfhmpQqJFDfj:0
+[    4551ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:3002/app/activities/junior-gymnastics?_rsc=A-T3OfhmpQqJFDfj:0
+[    4554ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_REFUSED @ http://127.0.0.1:3002/app/activities/junior-gymnastics/review?_rsc=A-T3OfhmpQqJFDfj:0

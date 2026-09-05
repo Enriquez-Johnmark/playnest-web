@@ -1,0 +1,38 @@
+- generic [active] [ref=e1]:
+  - alert [ref=e55]
+  - navigation "Main navigation" [ref=e122]:
+    - link "● PlayNest" [ref=e123] [cursor=pointer]:
+      - /url: /app
+      - generic [ref=e124]: ●
+      - text: PlayNest
+    - generic [ref=e125]:
+      - link "Home" [ref=e126] [cursor=pointer]:
+        - /url: /app
+      - link "Activities" [ref=e130] [cursor=pointer]:
+        - /url: /app/activities
+      - link "My bookings" [ref=e134] [cursor=pointer]:
+        - /url: /app/bookings
+      - link "Profile" [ref=e137] [cursor=pointer]:
+        - /url: /app/profile
+  - main [ref=e141]:
+    - link "My bookings" [ref=e142] [cursor=pointer]:
+      - /url: /app/bookings
+    - generic [ref=e145]:
+      - generic [ref=e146]: Confirmed demo booking
+      - heading "You’re all set" [level=1] [ref=e150]
+      - paragraph [ref=e151]: Your booking was saved in this browser.
+      - generic [ref=e152]:
+        - generic [ref=e153]:
+          - term [ref=e154]: Reference
+          - definition [ref=e155]: PN-W59JA
+        - generic [ref=e156]:
+          - term [ref=e157]: Activity
+          - definition [ref=e158]: Junior Gymnastics
+        - generic [ref=e159]:
+          - term [ref=e160]: Attending
+          - definition [ref=e161]: Emma
+        - generic [ref=e162]:
+          - term [ref=e163]: When
+          - definition [ref=e164]: Mon, Sep 14, 4:00 PM
+      - link "Open demo pass" [ref=e165] [cursor=pointer]:
+        - /url: /app/bookings/23b5461e-e836-4944-8e7b-efd07423b4fd/pass

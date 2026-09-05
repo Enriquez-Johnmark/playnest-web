@@ -4,7 +4,6 @@ import {
   ArrowRight,
   Check,
   ChevronDown,
-  CircleHelp,
   Download,
   HeartHandshake,
   Menu,
@@ -13,6 +12,7 @@ import {
   UsersRound,
   X,
 } from "lucide-react";
+import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 
 const programs = [
@@ -147,9 +147,6 @@ export default function Home() {
             </a>
           ))}
         </nav>
-        <a className="header-cta" href="#programs">
-          Explore Programs <ArrowRight size={13} />
-        </a>
         <button
           className="menu-button"
           onClick={() => setMenu(!menu)}
@@ -173,13 +170,9 @@ export default function Home() {
             <a className="primary-button" href="#programs">
               Explore Programs <ArrowRight size={16} />
             </a>
-            <a
-              className="quiet-button download-button"
-              href="/downloads/playnest-android-v1.0.0.apk"
-              download
-            >
-              Download Android demo <Download size={16} />
-            </a>
+            <Link className="quiet-button" href="/login">
+              Try the booking demo <ArrowRight size={16} />
+            </Link>
           </div>
         </div>
         <div className="hero-photo">
@@ -219,14 +212,14 @@ export default function Home() {
                 <p>{desc}</p>
                 <footer>
                   <b>{price}</b>
-                  <button onClick={showNotice}>Details &amp; Schedule</button>
+                  <a href="#schedule">View sample schedule</a>
                 </footer>
               </article>
             ))}
           </div>
           <p className="booking-strip">
-            Booking Note: session enrollments and child profiles are reserved
-            inside the planned PlayNest demo experience.
+            Demo booking is available: choose a session, select a demo child,
+            and retrieve the saved check-in pass in this browser.
           </p>
         </div>
       </section>
@@ -256,7 +249,7 @@ export default function Home() {
             <Benefit
               icon={<HeartHandshake />}
               title="Easy Booking"
-              text="Browse programs and preview a planned parent-first booking flow."
+              text="Browse programs, choose a session, and save a parent-first demo booking."
             />
           </div>
         </div>
@@ -285,25 +278,14 @@ export default function Home() {
               text="Arrive relaxed. PlayNest is built for a simple, considerate flow from planning to studio time."
             />
           </div>
-          <div className="app-note">
-            <span>▣</span>
-            <div>
-              <b>Planned mobile experience</b>
-              <p>
-                Reservations and demo check-in passes are planned for the future
-                PlayNest app.
-              </p>
-            </div>
-            <button onClick={showNotice}>Mobile PlayNest</button>
-          </div>
         </div>
       </section>
       <section id="schedule" className="schedule">
         <div className="wrap">
-          <h2>Weekly Studio Schedule</h2>
+          <h2>Sample Studio Schedule</h2>
           <p className="section-intro">
-            Explore a sample weekly schedule for planning and preview purposes.
-            No session is live or reservable here.
+            This public preview shows all PlayNest programs together so you can
+            compare example times. It is not a live calendar or a reservation.
           </p>
           <div className="day-tabs" aria-label="Sample schedule day">
             <span className="sr-only">Choose a sample schedule day</span>
@@ -319,8 +301,8 @@ export default function Home() {
             ))}
           </div>
           <div className="schedule-title">
-            <span>▣ PlayNest Activity Center · {day}&apos;s sample slots</span>
-            <small>Mondays: Closed for sanitization</small>
+            <span>▣ PlayNest Activity Center · {day}&apos;s example times</span>
+            <small>Choose a day to compare the sample program times.</small>
           </div>
           <div className="session-list">
             {sessions.map(([time, title, ages, detail, state, price]) => (
@@ -344,8 +326,8 @@ export default function Home() {
             ))}
           </div>
           <p className="schedule-foot">
-            * Times, instructors, and capacities are illustrative sample data.
-            Reserve in the app for live studio schedule.
+            Times, instructors, and capacities are illustrative. Log in to
+            PlayNest to try the interactive booking demo.
           </p>
         </div>
       </section>
@@ -396,7 +378,7 @@ export default function Home() {
             ],
             [
               "How do I book a session?",
-              "This site is a marketing demo. Booking is planned for the PlayNest app experience.",
+              "Explore Programs shows the public program overview. Log in to PlayNest when you are ready to try the booking demo.",
             ],
             [
               "Do parents need to attend?",
